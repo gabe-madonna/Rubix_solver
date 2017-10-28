@@ -749,7 +749,7 @@ def import_cube(interact = False):
     while os.getcwd() != 'C:\\':
         os.chdir("..")
     
-    os.chdir('C:\\Users\\Gabe Madonna\\Google Drive\\Code_CAD\\rubix project\\pictures')
+    os.chdir('C:\\Users\\Gabe Madonna\\Google Drive\\Code_CAD\\Rubix_solver\\pictures')
     face_files = os.listdir()
     face_images = list(map(cv2.imread, face_files))
     ref_pixels = list(map(graphics.get_av_pixel, face_images))
