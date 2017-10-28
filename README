@@ -1,0 +1,2 @@
+A package for quickly generating steps to solve a rubix cube.
+Can take in a manual description of the starting state of the cube or generate one from images.
